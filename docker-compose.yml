@@ -1,0 +1,8 @@
+version: '3'
+services:
+  tokenizer:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      OPENAI_API_KEY: your_api_key_here
